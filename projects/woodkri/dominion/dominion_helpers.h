@@ -16,5 +16,6 @@ int cardEffectMine(int choice1, int choice2, struct gameState *state, int handPo
 int cardEffectMinion(int choice1, int choice2, struct gameState *state, int handPos, int currentPlayer);
 int cardEffectAmbassador(int choice1, int choice2, struct gameState *state, int handPos, int currentPlayer);
 int cardEffectTribute(struct gameState *state, int currentPlayer, int nextPlayer, int* tributeRevealedCards);
+void gainEstateBaron(struct gameState * state, int currentPlayer);
 
 #endif
