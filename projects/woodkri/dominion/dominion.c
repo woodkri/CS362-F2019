@@ -1385,6 +1385,16 @@ int updateCoins(int player, struct gameState *state, int bonus)
     return 0;
 }
 
+int assert(int expression) {
+    if (expression) {
+        //true
+        return 1;
+    }
+    else {
+        //false
+        return 0;
+    }
+}
 
 //end of dominion.c
 
