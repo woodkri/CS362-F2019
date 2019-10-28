@@ -34,7 +34,7 @@ int main (int argc, char** argv) {
     //Call cardEffectBaron with choice to discard estate for player 0
     cardEffectBaron(1, &G, 0);
     //With discard of card, should get 4 more coins
-    int result = assert(G.coins == coins+2);
+    int result = assert(G.coins == coins+4);
     if (!result) {
         printf("FAIL - Player did not gain 4 coins.\n");
     }
@@ -80,10 +80,10 @@ int main (int argc, char** argv) {
     cardEffectBaron(0, &G, 0);
     result = assert(G.coins == coins);
     if (!result) {
-        printf("PASS - Player's coins did not change'.\n");
+        printf("FAIL - Player's coins changed.\n");
     }
     else {
-        printf("FAIL - Player's coins changed.\n");
+        printf("PASS - Player's coins did not change'.\n");
     }
     result = assert(G.numBuys == buys+1);
     if (!result) {
@@ -140,10 +140,10 @@ int main (int argc, char** argv) {
 
     result = assert(G.coins == coins);
     if (!result) {
-        printf("PASS - Player's coins did not change'.\n");
+        printf("FAIL - Player's coins changed.\n");
     }
     else {
-        printf("FAIL - Player's coins changed.\n");
+        printf("PASS - Player's coins did not change'.\n");
     }
     result = assert(G.numBuys == buys+1);
     if (!result) {
