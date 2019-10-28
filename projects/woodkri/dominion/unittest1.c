@@ -170,9 +170,9 @@ int main (int argc, char** argv) {
     }
     result = assert(numEstatesAfter == numEstates+1);
     if (!result) {
-        printf("FAIL - Player did not gain an estate card.\n");
+        printf("FAIL - Player did not gain an estate card.\n\n");
     }
     else {
-        printf("PASS - Player gained an estate card.\n");
+        printf("PASS - Player gained an estate card.\n\n");
     }
 }

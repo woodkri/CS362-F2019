@@ -191,9 +191,9 @@ int main (int argc, char** argv) {
     }
     result = assert(villageCountAfter == villageCount);
     if (!result) {
-        printf("FAIL - Village count changed.\n");
+        printf("FAIL - Village count changed.\n\n");
     }
     else {
-        printf("PASS - Village count did not change.\n");
+        printf("PASS - Village count did not change.\n\n");
     }
 }

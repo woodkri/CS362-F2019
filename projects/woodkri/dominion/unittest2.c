@@ -200,9 +200,9 @@ int main (int argc, char** argv) {
     }
     result = assert(G.handCount[1] == opponentHandCount);
     if (!result) {
-        printf("FAIL - Player 1's hand count changed.\n");
+        printf("FAIL - Player 1's hand count changed.\n\n");
     }
     else {
-        printf("PASS - Player 1's hand count did not change.\n");
+        printf("PASS - Player 1's hand count did not change.\n\n");
     }
 }

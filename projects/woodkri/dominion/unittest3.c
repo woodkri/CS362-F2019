@@ -132,9 +132,9 @@ int main (int argc, char** argv) {
     }
     result = assert(G.hand[1][2] == copper);
     if (!result) {
-        printf("FAIL - Opponent did not gain copper.\n");
+        printf("FAIL - Opponent did not gain copper.\n\n");
     }
     else {
-        printf("PASS - Opponent gained copper.\n");
+        printf("PASS - Opponent gained copper.\n\n");
     }
 }

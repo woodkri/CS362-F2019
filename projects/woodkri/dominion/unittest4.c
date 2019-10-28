@@ -243,9 +243,9 @@ int main (int argc, char** argv) {
     }
     result = assert(cards == G.handCount[p] + G.discardCount[p] + G.deckCount[p]);
     if (!result) {
-        printf("FAIL - Number of cards changed.\n");
+        printf("FAIL - Number of cards changed.\n\n");
     }
     else {
-        printf("PASS - Number of cards did not change.\n");
+        printf("PASS - Number of cards did not change.\n\n");
     }
 }
