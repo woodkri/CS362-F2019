@@ -1,7 +1,7 @@
-//
-// Created by krist on 10/23/2019.
-// Baron
-//
+/*
+ * Author: Kristin Wood
+ * Description: Unit test for cardEffectBaron function
+ */
 
 #include "dominion.h"
 #include "dominion_helpers.h"

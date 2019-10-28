@@ -1,7 +1,7 @@
-//
-// Created by krist on 10/23/2019.
-// Minion
-//
+/*
+ * Author: Kristin Wood
+ * Description: Unit test for cardEffectMinion function
+ */
 
 #include "dominion.h"
 #include "dominion_helpers.h"
