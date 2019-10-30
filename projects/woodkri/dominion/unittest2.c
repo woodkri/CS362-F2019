@@ -190,7 +190,6 @@ int main (int argc, char** argv) {
     else {
         printf("PASS - Player 0 has 4 cards in their hand.\n");
     }
-    //Finds bug 1
     result = assert(G.discardCount[1] == opponentDiscardCount);
     if (!result) {
         printf("FAIL - Player 1's discard count changed.\n");

@@ -145,13 +145,6 @@ int main (int argc, char** argv) {
     else {
         printf("PASS - Player's coins did not change'.\n");
     }
-    result = assert(G.numBuys == buys+1);
-    if (!result) {
-        printf("FAIL - Player did not get an additional buy.\n");
-    }
-    else {
-        printf("PASS - Player got an additional buy.\n");
-    }
     numEstatesAfter = 0;
     for (int i = 0; i < G.handCount[p]; i++) {
         if (G.hand[p][i] == estate) {
