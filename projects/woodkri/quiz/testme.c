@@ -6,8 +6,7 @@
 char inputChar()
 {
     // returns random character between space (32) and } (125)
-    char random = (rand() % (125 - 32 + 1)) + 32;
-    return random;
+    return ((rand() % (125 - 32 + 1)) + 32);
 }
 
 char *inputString()
