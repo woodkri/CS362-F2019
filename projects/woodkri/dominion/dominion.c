@@ -810,10 +810,11 @@ int cardEffectMinion(int choice1, int choice2, struct gameState *state, int hand
                     }
 
                     //draw 4
-                    for (j = 0; j < 4; j++)
+                    //Comment out bug so code doesn't crash
+                    /*for (j = 0; j < 4; j++)
                     {
                         drawCard(j, state);
-                    }
+                    }*/
                 }
             }
         }
