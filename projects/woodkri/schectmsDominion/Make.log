@@ -1,0 +1,2 @@
+gcc -c dominion.c -g  -Wall -fpic -coverage -lm -std=c99
+gcc -o playdom playdom.c -g dominion.o rngs.o -Wall -fpic -coverage -lm -std=c99
